@@ -27,6 +27,10 @@ export default {
   ],
   copyright: {
     href: "https://beian.miit.gov.cn/",
-    name: "沪ICP备19026706号-6",
+    name: "沪ICP备19026706号-3",
+  },
+  publicSecurity: {
+    href: "https://beian.mps.gov.cn/#/query/webSearch?code=31010602009598",
+    name: "沪公网安备31010602009598号",
   },
 };

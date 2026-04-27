@@ -1,328 +1,465 @@
-# 原创项目教程系列
+# 鱼皮项目学习建议（必读）
 
-> ⭐️ 加入项目系列学习：[成为编程导航会员](https://www.codefather.cn/vip)
+鱼皮原创项目系列以 【实战视频教程】 为主，从 0 到 1 带做，涵盖企业级 Java / Python / Go 后端 + 前端全栈项目、最新 AI 应用开发 + AI 编程项目、大厂架构进阶项目。已有近 30 套保姆级项目教程，并提供现成的源码、简历写法和面试题解，帮你用最快的速度学会做项目、写满简历、拿到 Offer。
+
+按照本文的学习建议，认真完成并理解 4 个及以上的项目，做项目能力可达中大厂水平。
+
+> ⭐️ [成为编程导航会员](https://www.codefather.cn/vip)，畅学鱼皮的所有项目，还可获授权将项目作为毕业设计，并获取毕设建议。
 >
-> **所有项目资料均已加密，仅供加入者本人观看。**
+> 所有项目资料均已加密，仅供加入者本人观看。拒绝盗版！盗版资料缺斤少两、没有 1 对 1 指导、没有更新，只会浪费更多时间！
 
-## 编程导航项目介绍视频
+此外，加入后还可享受以下服务：
 
-请观看该视频，可以利用视频底部的章节条快速定位到对应的项目哦：https://www.bilibili.com/video/BV1YvmbYbEgS （记得给个三连支持谢谢 ❤️）
+| 教程资料 | 求职助力 |
+| --- | --- |
+| 详细的文字教程 / 直播笔记 | ⭐️ 现成的简历写法，直接写满简历 |
+| 完整的项目源码 | ⭐️ 项目相关面试题解和真实面经 |
+| 1 对 1 答疑解惑 + 专属交流群 | ⭐️ 项目扩展思路，拉开区分度 |
+| 前端 + Java 后端万用项目模板 | ⭐️ 从学项目到拿 Offer 一条龙 |
 
+比起看网上的教程自学，鱼皮项目系列的优势：学知识 → 做项目 → 答疑解惑 → 简历写法 → 面试题解，一条龙服务！
 
-鱼皮原创项目系列以 **实战** 为主，用全程直播的方式，从 0 到 1 带大家学习技术知识，并立即实践运用到项目中，做到学以致用。
+![](https://pic.code-nav.cn/post_picture/1601072287388278786/8hbPRENJg11Etggx.webp)
 
-扫码添加小助手，回复 **「课程咨询」** 可获取编程学习建议：
+鱼皮坚持带大家做项目多年，已帮无数名小伙伴拿到了大厂级别的 Offer：
 
-<img src="https://pic.code-nav.cn/post_picture/1601072287388278786/atxiqp2T-image.png" alt="undefined" width="257" />
-
-此外，还提供如下服务：
-
-- 详细的文字教程或直播笔记
-- 完整的项目源码
-- 1 对 1 答疑解惑
-- 专属项目交流群
-- ⭐️ 现成的简历写法（直接写满简历）
-- ⭐️ 项目的扩展思路（拉开和其他人的差距）
-- ⭐️ 项目相关面试题、题解和真实面经（提前准备，面试不懵逼）
-- ⭐️ 前端 + Java 后端万用项目模板（快速创建项目）
+![](https://pic.code-nav.cn/post_picture/1601072287388278786/pLQL1QnH34qIgsuQ.webp)
 
 
-比起看网上的教程学习，鱼皮项目系列的优势：
 
-> 从学知识 => 实践项目 => 复习笔记 => 项目答疑 => 简历写法 => 面试题解的一条龙服务
+## 鱼皮的项目学习建议
 
-| 对比维度 | 跟学鱼皮项目                                                 | 自学网上免费项目                                             | ⭐️ 鱼皮项目优势               |
-| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------- |
-| 项目选题 | ✅ 选题新颖，刻意避开网上热门项目                             | 传统项目场景（博客、商城、管理系统）                         | 增加区分度，提高简历通过率   |
-| 学习人数 | ✅ 少，不容易撞车                                             | 百万以上，烂大街                                             | 增加区分度，提高简历通过率   |
-| 教学方式 | ✅ 全程直播，带你敲每一行代码、带你踩坑和解决 Bug，不漏过每一个细节 | 录制课程，视频虽然看起来简短、一帆风顺，但你遇到错误无从下手 | 降低学习门槛，减少学习时长   |
-| 直播笔记 | ✅ 详细的官方笔记 + 精选学员优质笔记                          | 有笔记，但未经筛选                                           | 学到更多知识细节             |
-| 视频内容 | ✅ 项目教程 + 经验分享                                        | 项目教程                                                     | 学到更多编程经验             |
-| 项目源码 | ✅ 完整源码仓库 + 每章的提交记录 + 定期更新                   | 只有代码包、不更新                                           | 节省时间，避免踩坑           |
-| 项目答疑 | ✅ 各项目交流群 + 答疑解惑 + 常见问题整理                     | 无免费的答疑服务，遇到问题自行解决                           | 节省时间                     |
-| 简历写法 | ✅ 现成的简历写法                                             | 无                                                           | 节省时间、提高简历通过率     |
-| 项目扩展 | ✅ 给出扩展思路 + 学员作品共享                                | 无                                                           | 开拓思路、拉开和其他人的差距 |
-| 项目面试 | ✅ 项目相关面试题、题解和真实面经                             | 无                                                           | 提前准备，面试不懵逼         |
+**如果你是程序员 / 计算机专业学生：** 学完至少一门后端框架（比如 Spring Boot）或前端框架（比如 Vue）之后，跟着做项目效果更佳。一种最快速的学习方法是，先通过鱼皮的项目实战新技术，然后看完整的教程来系统学习新技术，事半功倍。如果还没有学完框架，请先按照 [鱼皮的编程学习路线](https://www.codefather.cn/course/1789189862986850306) 补充知识。
 
-编程导航已有近 **20 套项目教程！** 每个项目的学习重点不同，几乎全都是前端 + 后端的 **全栈** 项目。
+**如果你没有编程基础，只想快速用 AI 编程开发项目：** 可以直接从标注了 `AI 编程` 的项目开始学起，选 2 个即可。这些项目重点帮你掌握利用 AI 快速开发产品的方法和工作流，不需要系统学习编程语言和框架，也能跟着做出来。
 
-> 所有 [成为编程导航会员](https://www.codefather.cn/vip) 的同学可获鱼皮授权将项目作为毕业设计，并获取毕设建议。
+💡 由于鱼皮的项目较多，如果你不确定该做哪些项目，可以从 [编程导航会员中心](https://www.codefather.cn/vip/center) 添加鱼皮的微信，鱼皮会根据你的个人情况来定制最适合你的快速学习路径。
+
+
+
+
+## 鱼皮项目的推荐学习顺序
+
+> 25 年之前的项目可以通过 [介绍视频](https://bilibili.com/video/BV1YvmbYbEgS) 快速了解，可以利用视频底部的章节条快速定位到对应的项目哦
 >
-> 按照 [鱼皮项目学习建议](https://www.codefather.cn/post/1797431216467001345)，认真完成并理解 4 个及以上的项目，做项目能力可达中大厂水平。
+> 标注了 `Java` `Go` `Python` 的项目同时提供三种语言的教程，选择你熟悉的语言即可
 
-## 🔥 鱼皮原创项目系列
 
-### AI 零代码应用生成平台（25 年最新）
 
-以 AI 开发实战 + 后端架构设计为核心的微服务全栈项目，基于 Spring Boot 3 + LangChain4j + Vue 3 开发对标大厂的 AI 代码生成平台，掌握新时代程序员必知必会的 AI 智能体开发、AI 工作流等前沿技术，大幅提升求职竞争力！
+### 阶段 0 - AI 编程（零基础也能学）
 
-教程中将深入实践 LangChain4j 智能体和 LangGraph4j 工作流的特性，涉及多种设计模式、Spring Cloud + Dubbo 微服务架构、多级缓存架构、多角度系统优化、浏览器自动化、Nginx、AI Vibe Coding 技巧、响应式编程、企业级监控体系的讲解，学习前沿技术的同时综合提升编程技能和系统架构设计能力。
+不需要编程基础也能跟着做！选 2 个即可，先学会 AI 编程，有助于后续更好地学习传统编程、利用 AI 解决问题和扩展自己的项目。
 
-> 开始学习或了解详情：https://www.codefather.cn/course/1948291549923344386
-> 开源地址：https://github.com/liyupi/yu-ai-code-mother
+1）[AI 热点监控工具项目（26年最新）](https://www.codefather.cn/course/2026625439052627970)
 
+`AI编程`  `全栈`  `MCP`  `Agent Skills`  `OpenRouter`  `爬虫`  `可作为毕设`
 
-### AI 超级智能体项目（25 年最新）
+自动化发现并推送 AI 领域前沿热点的全网监控工具。以 Vibe Coding 为核心，基于 VS Code + GitHub Copilot，利用 MCP 和 Agent Skills 扩展 AI 编程能力，实战多源数据抓取（国内外搜索引擎 + Twitter）、OpenRouter 大模型接入、智能内容清洗和相关性分析、Aceternity UI 科技感组件库，掌握 AI 编程全链路工作流。
 
-以 AI 开发实战为核心的项目教程，将通过开发 AI 恋爱大师应用 + 拥有自主规划能力的超级智能体，带大家掌握新时代程序员必会的 AI 概念、AI 工具（如大模型平台 + Cursor）和 AI 编程技术（如 Spring AI），大幅增加求职的竞争力！
+![AI 热点监控工具](https://pic.code-nav.cn/post_picture/1601072287388278786/KiELAMotwZ81RMKc.webp)
 
-教程中将实践会话记忆、RAG 检索增强生成、Tool Calling 工具调用、MCP 服务开发、ReAct 智能体开发等 AI 典型应用场景，并涉及到 OpenManus 开源项目源码剖析、Spring AI 核心特性的实战和底层原理讲解、前端 AI 代码生成和 Serverless 前后端项目部署，学习前沿技术的同时综合提升编程技能。
+2）[AI 万能视频下载总结器（26年最新）](https://www.codefather.cn/course/2027618983506640897)
 
-> 开始学习或了解详情：https://www.codefather.cn/course/1915010091721236482
-> 开源地址：https://github.com/liyupi/yu-ai-agent
+`AI编程`  `全栈`  `Python`  `Stripe海外支付`  `SEO`  `商业级产品`  `可作为毕设`
 
-### 亿级流量点赞系统（25 年最新）
+纯 AI 编程开发的商业级万能视频下载网站，支持从各大平台下载视频、AI 总结视频内容、字幕翻译等。以 Vibe Coding 为核心，基于 Cursor + MCP 开发，实战 Python FastAPI 后端、yt-dlp 视频解析、Stripe 海外支付集成、SEO 和 GEO 搜索引擎优化，学会用 AI 编程打造能赚钱的产品。
 
-基于 Spring Boot 3 + Java 21 + MyBatis-Plus + TiDB + Redis + Pulsar + Docker + Nginx 的 **高并发点赞系统**。该项目涵盖高并发、大流量、高性能、高可用、分布式架构、可观测性等核心技术，集成最新的技术栈和架构设计方案，是从 0 到 1 打造大流量点赞系统的实践，帮助大家全面掌握企业级系统开发与优化经验。
+![AI 万能视频下载总结器](https://pic.code-nav.cn/post_picture/1601072287388278786/4HFn7fRLHVQTGqX9.webp)
 
-> 开始学习或了解详情：https://www.codefather.cn/course/1912696290659577857
-> 开源地址：https://github.com/liyupi/yu-like
+3）[GitHub 文档翻译工具项目（26年最新）](https://www.codefather.cn/course/2014303010343092226)
 
-### 智能协同云图库（25 年最新）
+`AI编程`  `AI应用开发`  `全栈`  `Next.js`  `GitHub App`  `Vercel`  `可作为毕设`
 
-基于 Vue 3 + Spring Boot + COS + WebSocket 的 企业级智能协同云图库平台。项目应用场景广泛，可作为表情包网站、设计素材网站、壁纸网站、个人云盘、企业活动相册等。
+以 Vibe Coding 为核心的 Next.js 全栈 SaaS 项目，让 AI 自动翻译 GitHub 仓库的文档为多种语言并创建 PR。实战 GitHub App 开发、OAuth 授权、Webhook 实时推送、OpenRouter 统一接入多种 AI 大模型、Prisma 数据库 ORM、shadcn/ui 现代组件库、Vercel 快速部署上线，掌握 AI 编程的完整工作流。
 
-用户可以在平台公开上传和检索图片素材；管理员可以上传、审核和管理分析图片；个人用户可将图片上传至私有空间进行批量管理、检索、编辑和分析；企业可开通团队空间并邀请成员，共享图片并实时协同编辑图片。
+![GitHub 文档翻译工具](https://pic.code-nav.cn/post_picture/1601072287388278786/w2sifs1mgeg4FFNg.webp)
 
-技术栈包括 MySQL 分库分表、Redis + Caffeine 多级缓存、COS 对象存储、Sa-Token 权限控制、DDD 领域驱动设计、WebSocket 实时通讯、JUC、Disruptor、AI 绘图大模型、设计模式等。从 0 到 1 的真实企业级项目设计开发，绝对让你收获满满
+4）[AI 程序员技术练兵场](https://www.codefather.cn/course/1965699176489484289)
 
-> 开始学习或了解详情：https://www.codefather.cn/course/1864210260732116994
-> 开源地址：https://github.com/liyupi/yu-picture
-> 项目介绍和上线教程：https://www.bilibili.com/video/BV1akwGeSERK
+`AI编程`  `AI应用开发`  `LangChain4j`  `Spring Boot`  `Vue3`  `全栈`  `可作为毕设`
 
+基于 Spring Boot + Vue 的程序员闯关式技术练兵场，AI 模拟产品经理出题、用户拖拽选择技术方案、AI 智能评分并调整薪资。以 AI 编程为核心开发方式，实战 LangChain4j AI 开发框架、结构化输出、对话记忆、工具调用、提示词工程，掌握企业级 AI 应用开发流程和技巧。
 
-### AI 编程助手项目（25 年最新）
+![AI 程序员技术练兵场](https://pic.code-nav.cn/post_picture/1601072287388278786/3ejpRRV6aM2S2ogA.webp)
 
-小而精的 AI 应用开发教程，用 1 个项目快速实战 LangChain4j 框架主流的用法和特性。包括对话记忆、结构化输出、AI Service、RAG 知识库、工具调用、MCP、SSE 流式输出等。适合新手入门 AI 应用开发。
 
-> 开始学习或了解详情：https://www.codefather.cn/course/1943267371799080961
-> 开源地址：https://github.com/liyupi/ai-code-helper
 
+### 阶段 1 - 新手入门
 
-### 公众号智能管理系统（25 年最新）
+这些项目适合新手入门，学完至少一门后端框架（如 Spring Boot）或前端框架（如 Vue）后，建议按照顺序全部都做，根据自己的学习方向只做前端或后端，觉得简单就快速跳过。
 
-专注公众号业务场景的项目教程，基于 Spring Boot3 + WxJava + Spring AI 的公众号智能管理系统。包括多公众号管理、服务器认证、素材管理、回复管理、菜单栏管理、AI 自动回复等场景，涉及内网穿透、虚拟线程、AI 大模型接入、JUC 等实践。
+1）[用户中心项目](https://www.codefather.cn/course/1790943469757837313)
 
-> 开始学习或了解详情：https://www.codefather.cn/course/1932410836060119041
-> 开源地址：https://github.com/yuyuanweb/ai-gzh-manager
+`全栈入门`  `Spring Boot`  `React`  `MySQL`  `Docker`
 
+基于 Spring Boot + React 的全栈用户中心系统，涵盖用户注册登录、权限管理等最常见的业务场景。适合新手入门，系统学习完整的项目开发流程和部署上线方法，做出第一个属于自己的全栈网站。
 
-### 面试刷题平台
+![用户中心项目](https://pic.code-nav.cn/post_picture/1601072287388278786/KuyzMfWSjr0JRRc8.webp)
 
-真实企业级项目，基于 Next.js + Spring Boot + Redis + MySQL + Elasticsearch 的 面试刷题平台。管理员可以创建题库、题目和题解；用户可以注册登录、分词检索题目、在线刷题并查看刷题记录日历图等。
+2）[伙伴匹配系统](https://www.codefather.cn/course/1790950013153095682)
 
-教程由浅入深，带你学习实战 React + Next.js 服务端渲染网站开发，后端 Redis 多级缓存、Elasticsearch 搜索、Redisson 高级数据结构、Druid 并发、HotKey 探测、Sa-Token 权限控制、Nacos 动态配置、Sentinel 流控、反爬虫设计等，提升技术运用能力。
+`全栈入门`  `Spring Boot`  `Vue3`  `Redis`  `移动端`  `可作为毕设`
 
-> 开始学习或了解详情：https://www.code-nav.cn/course/1826803928691945473
-> 
-> 开源地址：https://github.com/liyupi/mianshiya-next
+基于 Spring Boot + Vue 3 的移动端 H5 社交应用，帮助用户按标签搜索伙伴、建房组队、智能推荐相似用户。巩固开发流程，学习 Redis 缓存、分布式登录、事务、并发编程、大数据推荐算法等后端核心知识。
 
-### AI 答题应用平台
+![伙伴匹配系统](https://pic.code-nav.cn/post_picture/1601072287388278786/FUqpSuMziqDfN9zJ.webp)
 
-基于 Vue 3 + Spring Boot + Redis + ChatGLM AI + RxJava + SSE 的 **AI 答题应用平台。**用户可以基于 AI 快速制作并发布答题应用，在线答题并基于 AI 得到回答总结，还支持应用分享、资源管理、统计分析等功能。
+3）[AI 编程助手（26年必学）](https://www.codefather.cn/course/1943267371799080961)
 
-教程由浅入深，可以学习实战 React 跨端小程序开发、Vue3 AI 应用网站开发，后端分库分表、分布式锁、缓存、幂等设计、设计模式、RxJava 响应式编程、SSE 实时推送、线程池隔离等，大幅提升开发经验和架构设计能力，助你成为项目负责人。
+`AI应用开发`  `后端`  `LangChain4j`  `Spring Boot`  `RAG`  `MCP`
 
-> 开始学习或了解详情：[🔥 AI 答题应用平台（最新完结）](https://www.code-nav.cn/course/1790274408835506178)
->
-> 开源地址：https://github.com/liyupi/yudada
->
-> 教程试看一集：[点击试看](https://www.code-nav.cn/course/1790274408835506178/section/1790274461633404930?contentType=video&type=#)
+基于 Spring Boot + LangChain4j 的 AI 编程小助手，可以帮助用户答疑解惑、推荐面试题、给出编程学习路线等。小而精，用 1 个项目快速实战 AI 对话记忆、结构化输出、AI Service、RAG 知识库、工具调用、MCP、SSE 流式输出等主流 AI 开发技术，适合新手快速入门 AI 应用开发。
 
-### 手写 RPC 框架
+![AI 编程助手](https://pic.code-nav.cn/post_picture/1601072287388278786/DMA2LUpGZfhJdD0Y.webp)
 
-基于 Java + Etcd + Vert.x 的高性能 RPC 框架，用新颖的技术栈从 0 到 1 带大家开发轮子。教程由浅入深，可以学习并实践基于 Vert.x 的网络服务器、序列化器、基于 Etcd 和 ZooKeeper 的注册中心、反射、动态代理、自定义网络协议、多种设计模式（单例 / 工厂 / 装饰者等）、负载均衡器设计、重试和容错机制、Spring Boot Starter 注解驱动开发等，大幅提升架构设计能力。
 
-项目分为基础版和扩展版：
 
-- 基础版只需学几个小时，就能写在简历上的小项目~
-- 扩展版将是充满亮点的技术类项目，搭配一个业务项目，让简历更有竞争力。
+### 阶段 2 - AI 应用开发实战
 
-> 开始学习或了解详情：[手写 RPC 框架（24 年完结）](https://www.code-nav.cn/course/1768543954720022530)
->
-> 开源地址：https://github.com/liyupi/yu-rpc
->
-> 导学视频：[https://www.bilibili.com/video/BV1AJ4m1H7XL](https://www.bilibili.com/video/BV1AJ4m1H7XL/)
+AI 时代最热门的方向！这些项目融合了 AI 技术和真实业务场景，建议选择 2 ~ 4 个深入学习，学完后能独立开发和上线 AI 应用。
 
-### 代码生成器共享平台
+1）[AI 超级智能体项目（26年必学）](https://www.codefather.cn/course/1915010091721236482)
 
-基于 React + Spring Boot + Picocli + 对象存储的 **代码生成器共享平台**，又分为 3 个循序渐进的子项目：基于命令行的本地代码生成器 + 代码生成器制作工具 + 在线代码生成器平台。实践 Java 命令行应用开发、FreeMarker 模板引擎、多种设计模式、对象存储、十几种优化方法、复杂业务的拆解和系统设计、分布式任务调度系统、Vert.x 响应式编程等。
+`AI应用开发`  `AI编程`  `后端`  `Spring AI`  `RAG`  `MCP`  `AI智能体`  `可作为毕设`
 
-> 开始学习或了解详情：[代码生成器共享平台（24 年最新完结） ](https://www.code-nav.cn/course/1790980795074654209) 
->
-> 在线体验：[http://yuzi.code-nav.cn](http://yuzi.code-nav.cn/)
->
-> 视频演示：https://www.bilibili.com/video/BV1EA4m1L7tm/
->
-> 教程试看一集：[点击试看](https://www.code-nav.cn/course/1790980795074654209/section/1791410704848105473?contentType=video&type=#)
+基于 Spring Boot + Spring AI 的 AI 应用开发实战教程，通过开发 AI 恋爱大师 + 拥有自主规划能力的超级智能体，带你掌握新时代程序员必会的 AI 概念、AI 工具和 AI 编程技术，实战 AI 会话记忆、RAG 检索增强、Tool Calling、MCP 服务开发、ReAct 智能体等典型场景。还涉及 OpenManus 源码剖析、Spring AI 底层原理、前端 AI 代码生成、Serverless 部署等扩展知识，内容全面，是后端转 AI 应用开发的首选项目。
 
-### OJ 判题系统
+![AI超级智能体项目](https://pic.code-nav.cn/post_picture/1601072287388278786/zxEnjwKdIGdyBxVc.webp)
 
-基于 Vue 3 + Spring Boot + Spring Cloud 微服务 + Docker 的编程题目在线评测系统。系统学习并实践前后端模板开发 + 多种设计模式 + 单体项目微服务改造 + Linux 虚拟机远程开发 + Docker 代码沙箱 + Java 安全控制。
+2）[智能协同云图库](https://www.codefather.cn/course/1864210260732116994)
 
-> 开始学习或了解详情：[OJ 判题系统（最新完结）](https://www.code-nav.cn/course/1790980707917017089) 
->
-> 试看一集：[点击试看](https://www.code-nav.cn/course/1790980707917017089/section/1791374029275856898?contentType=video&type=#)
+`企业级`  `全栈`  `Vue3`  `Spring Boot`  `WebSocket`  `DDD`  `AI绘图`  `可作为毕设`
 
-### 智能 BI 项目
+基于 Vue 3 + Spring Boot + COS + WebSocket 的企业级智能协同云图库平台，可作为表情包网站、设计素材网站、壁纸网站、个人云盘、企业活动相册等。支持公开上传检索图片、管理员审核管理、私有空间批量管理编辑、团队空间实时协同编辑等。实战 MySQL 分库分表、Redis + Caffeine 多级缓存、COS 对象存储、Sa-Token 权限控制、DDD 领域驱动设计、WebSocket 实时通讯、JUC 并发编程、Disruptor 无锁队列、AI 绘图大模型、多种设计模式等。由浅入深，掌握层层递进的系统设计、项目扩展和优化方案。
 
-基于 React + Spring Boot + AIGC 的智能数据分析平台。系统学习并实践异步化 + 线程池 + RabbitMQ 消息队列 + AI 应用开发 + AIGC Prompt 优化。
+![智能协同云图库](https://pic.code-nav.cn/post_picture/1601072287388278786/BPOug02bbqp1fw40.webp)
 
-> 开始学习或了解详情：[智能 BI 平台](https://www.code-nav.cn/course/1790980531403927553) 
->
-> 试看一集：[点击试看](https://www.code-nav.cn/course/1790980531403927553/section/1791385461357924354?contentType=video&type=#)
+3）[AI 零代码应用生成平台（26年必学）](https://www.codefather.cn/course/1948291549923344386)
 
-### API 开放平台
+`AI应用开发`  `对标大厂`  `微服务`  `全栈`  `LangChain4j`  `Spring Cloud`  `Dubbo`  `可作为毕设`
 
-基于 React + Spring Boot + Dubbo 的分布式项目。系统学习并实践前后端模板开发 + 架构设计 + SDK 开发 + API 签名认证 + Dubbo RPC + Gateway 微服务网关。
+基于 Spring Boot 3 + LangChain4j + Vue 3 的微服务全栈项目，对标大厂的 AI 应用生成平台，用户输入需求即可由 AI 智能体自动生成完整的前后端项目代码。实战 AI 智能体、LangGraph4j 工作流、多种设计模式、Spring Cloud + Dubbo 微服务架构、多级缓存架构、COS 对象存储、Selenium 浏览器自动化、Nginx 反代部署、Vibe Coding、响应式编程、多维度系统优化、企业级监控体系，学习前沿技术的同时，大幅提升编程技能和架构设计能力。
 
-> 开始学习或了解详情：[API 开放平台](https://www.code-nav.cn/course/1790979723916521474) 
->
-> 试看一集：[点击试看](https://www.code-nav.cn/course/1790979723916521474/section/1791087226742419457?contentType=video&type=#)
+![AI 零代码应用生成平台](https://pic.code-nav.cn/post_picture/1601072287388278786/fFI6phGSbbIeZxFf.webp)
 
-### 聚合搜索平台
+4）[AI 答题应用平台](https://www.codefather.cn/course/1790274408835506178)
 
-基于 Vue 3 + Spring Boot + ES 的搜索中台项目。系统学习并实践爬虫 + Elastic Stack + 设计模式 + 数据同步 + JMeter 压力测试。
+`企业级`  `全栈`  `AI应用开发`  `Vue3`  `React`  `Spring Boot`  `可作为毕设`
 
-> 开始学习或了解详情：[聚合搜索平台](https://www.code-nav.cn/course/1790979621621641217) 
->
-> 试看一集：[点击试看](https://www.code-nav.cn/course/1790979621621641217/section/1791092010266439681?contentType=video&type=#)
+基于 Vue 3 + Spring Boot + AI 的智能答题应用平台，用户可基于 AI 快速制作并发布答题应用，在线答题并获得 AI 总结，还支持应用分享、资源管理、统计分析等功能。实战 AI 应用网站开发、React 跨端小程序开发、分库分表、分布式锁、缓存、幂等设计、设计模式、RxJava 响应式编程、SSE 实时推送、线程池隔离等，大幅提升开发经验和架构设计能力，助你成为项目负责人。
 
-### 用户中心系统
+![AI 答题应用平台](https://pic.code-nav.cn/post_picture/1601072287388278786/5gIFC4Ub6icNkZyf.webp)
 
-基于 React + Spring Boot 的 PC 网站。适合学完框架的新手入门，系统学习完整的项目开发流程和上线方法。
+5）[智能面试刷题平台](https://www.codefather.cn/course/1826803928691945473)
 
-> 开始学习或了解详情：[用户中心项目](https://www.code-nav.cn/course/1790943469757837313) 
->
-> 试看一集：[点击试看](https://www.code-nav.cn/course/1790943469757837313/section/1791011127295520770?contentType=video&type=#)
+`企业级`  `全栈`  `AI应用开发`  `Next.js`  `Spring Boot`  `Elasticsearch`  `Redis`  `可作为毕设`
 
-### 伙伴匹配系统
+基于 Next.js + Spring Boot + Redis + Elasticsearch 的面试刷题平台，支持创建题库、分词检索、在线刷题、刷题记录日历图、AI 生成题目题解、AI 模拟面试等。实战 React + Next.js 服务端渲染、多级缓存、Redisson 高级数据结构、Druid 并发、HotKey 探测、Sa-Token 权限控制、Nacos 动态配置、Sentinel 流控、反爬虫设计等，提升技术运用能力。
 
-基于 Vue 3 + Spring Boot + Redis 的移动端 APP。帮助巩固开发流程，学习 Redis、事务、并发编程、大数据推荐思想等后端知识。
+![智能面试刷题平台](https://pic.code-nav.cn/post_picture/1601072287388278786/3ijqlPcULgG7Rb5o.webp)
 
-> 开始学习或了解详情：[伙伴匹配系统](https://www.code-nav.cn/course/1790950013153095682) 
->
-> 试看一集：[点击试看](https://www.code-nav.cn/course/1790950013153095682/section/1791396210872537089?contentType=video&type=#)
+6）[AI 爆款文章创作器（26年最新）](https://www.codefather.cn/course/2031299079576838146)
 
-## 🔧 万用项目模板
+`AI应用开发`  `全栈`  `Java`  `Go`  `Python`  `Spring AI`  `多智能体`  `Stripe支付`  `可作为毕设`
 
-> ⭐️ 加入项目系列学习：[成为编程导航会员](https://www.code-nav.cn/vip)
+基于 Spring Boot 3 + Spring AI Alibaba + Vue 3 的 AI 图文创作平台，5 个智能体协作完成从标题、大纲、正文到配图的完整创作流程。实战多智能体编排、StateGraph AI 工作流、7 种配图策略（含 AI 生图）、三阶段人机协作（Human in the loop）、SSE 流式推送、Stripe 国际支付、AOP 智能体可观测性、Docker 容器化部署。同时提供 Java、Go、Python 三种语言的教程。
 
-### Java 后端万用项目模板
+![AI 爆款文章创作器](https://pic.code-nav.cn/post_picture/1601072287388278786/OOgJhGZJut4TZSGP.webp)
 
-基于 Java SpringBoot 的项目初始模板，整合了常用框架和主流业务的示例代码。
+7）[企业级 AI 网关（26年最新）](https://www.codefather.cn/course/2029830328322994177)
 
-只需 **1 分钟** 即可完成内容网站的后端！！！大家还可以在此基础上快速开发自己的项目。
+`AI应用开发`  `对标大厂`  `全栈`  `Java`  `Go`  `Python`  `Spring AI`  `Prometheus`  `可作为毕设`
 
-详情请见：[Java 后端万用项目模板](https://www.code-nav.cn/course/1789200994552225793/section/1789201346202673154?type=#) 
+基于 Spring Boot 3 + Spring AI + Vue 3 的企业级 AI 网关平台，统一接入通义千问、智谱 AI、DeepSeek 等主流大模型。实战多模型适配器设计、智能路由策略、健康检查与自动 Fallback、Redisson 分布式限流、Stripe 支付和计费系统、Java SDK 开发、Prometheus + Grafana 监控告警、AI 绘图接口、插件系统架构。同时提供 Java、Go、Python 三种语言的教程。
 
-### 前端万用项目模板
+![企业级 AI 网关](https://pic.code-nav.cn/post_picture/1601072287388278786/R2EIZpFQTYXvzfyA.webp)
 
-基于 React + Ant Design 的项目初始模板，整合了常用框架和主流业务的示例代码。
+8）[AI 大模型评测平台（26年最新）](https://www.codefather.cn/course/2029864890566553602)
 
-只需 **1 分钟** 即可完成网站的基础前端！！！大家还可以在此基础上快速开发自己的项目。
+`AI应用开发`  `全栈`  `Java`  `Go`  `Python`  `Spring AI`  `RabbitMQ`  `ECharts`  `可作为毕设`
 
-详情请见：[前端万用项目模板](https://www.code-nav.cn/course/1789200994552225793/section/1789201831080992770?type=#) 
+基于 Spring Boot 3 + Spring AI + Vue 3 的 AI 大模型评测平台，支持多模型并排对比、Prompt Lab 提示词实验、Battle 匿名对战、场景化批量测试、可视化评测报告、代码沙箱预览等 8 大核心能力。实战 OpenRouter 统一接入 100+ 模型、Flux 响应式并行编程、RabbitMQ 异步任务队列、WebSocket 进度推送、AI 多评委交叉评分、ECharts 可视化报告、PDF 导出、成本实时监控。同时提供 Java、Go、Python 三种语言的教程。
 
-## ⛺️ 项目训练营
+![AI 大模型评测平台](https://pic.code-nav.cn/post_picture/1601072287388278786/AHOeqWC02NkCfDYU.webp)
 
-[项目训练营（寻爱网项目）](https://www.code-nav.cn/course/1806250609774997505/section/1806260285074825217?type=)：学习从立项到上线的完整做项目流程 + 优化思路
+9）[智能 BI 项目](https://www.codefather.cn/course/1790980531403927553)
 
-> 免费试看：[点击在线观看](https://www.aliyundrive.com/s/rcFczasMKVK)，提取码: cu89
+`AI应用开发`  `全栈`  `Spring Boot`  `RabbitMQ`  `React`  `可作为毕设`
 
-## 📚 编程导航专属项目教程
+基于 React + Spring Boot + AIGC 的智能数据分析平台，用户只需导入数据并输入分析需求，AI 自动生成可视化图表和分析结论。实战异步化、线程池、RabbitMQ 消息队列、AI 应用开发、AI 提示词优化。
 
-> 编程导航内部共创的项目实战教程，很适合练手或者作为毕业设计项目。
+![智能 BI 项目](https://pic.code-nav.cn/post_picture/1601072287388278786/cvbrv4fP0GsKriNv.webp)
 
-### 企业周边展示管理系统
+10）[公众号智能管理系统](https://www.codefather.cn/course/1932410836060119041)
 
-基于 Spring Boot + React + Ant Design 组件库 + MySQL + Redis 的 **企业级周边系统**，直观清晰地展示公司周边奖品、并且提高公司内部的周边申请和管理效率。
+`AI应用开发`  `后端`  `Spring Boot`  `Spring AI`  `WxJava`  `公众号开发`  `可作为毕设`
 
-> 开始学习或了解详情：https://github.com/yuyuanweb/peripheral-backend
->
-> 在线体验：http://prize.yuyuanweb.com/
+基于 Spring Boot + WxJava + Spring AI 的公众号智能管理系统，涵盖多公众号管理、服务器认证、素材管理、回复管理、菜单管理、AI 自动回复等真实业务场景，实战内网穿透、Java 虚拟线程、AI 大模型接入、JUC 并发编程等。
 
-### 动态公告系统
+![公众号智能管理系统](https://pic.code-nav.cn/post_picture/1601072287388278786/7W6LtE7FDXYRPwCG.webp)
 
-基于 Spring Boot + MySQL + React + Ant Design 组件库 + SweetAlert 的动态公告系统，包括后台公告管理和前端 SDK 开发，只需一行代码即可给项目增加灵活的公告弹窗展示能力，高效通知触达用户。
 
-> 开始学习或了解详情：https://www.code-nav.cn/course/1789199181551738882
 
-### 埋点 SDK 项目实战（C++）
+### 阶段 3 - 经典业务场景实战
 
-客户端埋点 SDK 项目，可以监控应用的状态，比如日活、是否有崩溃、崩溃率、模块异常情况、用户行为等。
+这些项目不依赖 AI 能力，聚焦经典企业级业务场景和系统设计，建议选择 1 ~ 2 个深入学习。
 
-项目包含了很多大型项目涉及到的技术点，比如线程池、定时器、Windows 注册表、数据库、文件系统、日志系统、网络通信协议设计、加解密、C++ 新特性等。对于学习进阶 C++、提升项目经验会很有帮助。
+1）[OJ 判题系统](https://www.codefather.cn/course/1790980707917017089)
 
-> 开始学习或了解详情：https://t.zsxq.com/18gzHcJzM（可在编程导航星球专栏内阅读）
+`架构设计`  `全栈`  `Spring Cloud`  `Docker`  `Vue3`  `微服务`  `可作为毕设`
 
-<img src="https://pic.yupi.icu/1285/(null)-20240603083002352.(null)" alt="" width="100%" />
+基于 Vue 3 + Spring Boot + Spring Cloud + Docker 的在线编程题目评测系统。实战前后端模板开发、多种设计模式、单体项目微服务改造、Linux 虚拟机远程开发、Docker 代码沙箱、Java 安全控制，掌握从单体到微服务的架构演进。
 
-## ⚔ 真实业务场景教程
+![OJ 判题系统](https://pic.code-nav.cn/post_picture/1601072287388278786/zBUwk0GrLZjWPurI.webp)
 
-> 主打小而精的企业真实业务实战教程，快速给简历增加亮点
+2）[代码生成器共享平台](https://www.codefather.cn/course/1790980795074654209)
 
-1. [简历中英文翻译实战教程](https://www.code-nav.cn/course/1789200352035184641/section/1789200491340603393?type=)
-2. [单设备登录限制实战教程](https://www.code-nav.cn/course/1789200352035184641/section/1789200584584175618?type=)
-3. [短信群发实战教程](https://www.code-nav.cn/course/1789200352035184641/section/1789200454422339586?type=)
+`企业级`  `全栈`  `React`  `Spring Boot`  `设计模式`  `Vert.x`  `可作为毕设`
 
-持续更新中。。。
+基于 React + Spring Boot + Picocli + 对象存储的代码生成器共享平台，包含 3 个循序渐进的子项目：本地代码生成器 + 代码生成器制作工具 + 在线代码生成器平台。实战 Java 命令行开发、FreeMarker 模板引擎、多种设计模式、对象存储、性能优化等十几种系统优化方法、分布式任务调度、Vert.x 响应式编程等，全面提升复杂业务的拆解和系统设计能力。
 
-## 📺 独家项目经验分享
+![代码生成器共享平台](https://pic.code-nav.cn/post_picture/1601072287388278786/LvXtUntdLYZFoA90.webp)
 
-> ⭐️ 加入项目系列学习：[成为编程导航会员](https://www.code-nav.cn/vip)
+3）[聚合搜索平台](https://www.codefather.cn/course/1790979621621641217)
 
-### 鱼皮原创开源项目经验分享
+`技术实战`  `全栈`  `Spring Boot`  `Elasticsearch`  `设计模式`  `爬虫`
 
-1. [Web 终端项目经验分享](https://www.code-nav.cn/essay/1808581806845460481)：前后端技术选型 + 系统设计 + 源码解读 + 简历亮点全面分享
-2. [面试刷题网站项目经验分享](https://www.code-nav.cn/essay/1808582645974695938)：从 0 到 1 分享数万用户网站的创作过程和经验分享
-3. [编程导航兑奖系统开发](https://www.code-nav.cn/essay/1808580701965123586)：编程导航网站真实开发过程大揭秘
-4. [SQL 代码数据生成项目分享](https://www.code-nav.cn/essay/1808580826217185282)：系统设计 + 源码解读 + 简历亮点全面分享
-5. [SQL 闯关式自学网站项目](https://www.code-nav.cn/essay/1808578829770424322)：纯前端 Vue3 + 代码编辑器项目，适合参与开源贡献
-6. [分布式邮件调度平台](https://www.code-nav.cn/course/1782335162700775426/section/1782342587189280770?type=&v=%E9%82%AE%E4%BB%B6)：Vue + Spring Boot + Redis + InfluxDB 的分布式项目，含设计说明书、竞赛展示 PPT
+基于 Vue 3 + Spring Boot + Elasticsearch 的聚合搜索中台，一站式检索多种类型的数据源。实战爬虫、Elastic Stack、多种设计模式、数据同步、JMeter 压力测试，掌握企业级搜索系统的设计和开发。
 
-### 项目导学
+![聚合搜索平台](https://pic.code-nav.cn/post_picture/1601072287388278786/gwgzZa2YQ4zGaBks.webp)
 
-1. [苍穹外卖 - 外卖点餐小程序](https://www.code-nav.cn/course/1782335162700775426/section/1782342617828671489?type=)：Java Spring Boot 入门级项目，业务流程完整、功能丰富、技术多样、适合刚学完框架的同学（相比于下面的瑞吉外卖，知识更多）
-2. [瑞吉外卖 - 外卖点餐系统](https://www.code-nav.cn/course/1782335162700775426/section/1782342621377052673?type=)：Java Spring Boot 入门级项目，适合刚学完框架的同学
-3. [尚医通 - 在线预约挂号平台](https://www.code-nav.cn/course/1782335162700775426/section/1782342632831696897?type=)：业务功能完整的 Java Spring Cloud 微服务项目，适合刚学完微服务的同学
-4. [硅谷课堂 - 在线学习平台](https://www.code-nav.cn/course/1782335162700775426/section/1782342652955967489?type=)：业务功能完整的 Java Spring Cloud 微服务项目，适合想学习第三方服务对接的同学
-5. [黑马点评 - 类似大众点评的移动 APP](https://www.code-nav.cn/course/1782335162700775426/section/1782342673558388737?type=)：专门为学习 Redis 定制的单体项目，适合刚学完 Spring Boot、想系统学习 Redis 的同学
+4）[SQL 数据生成平台](https://www.codefather.cn/course/1966416608870055938)
 
-## 鱼皮免费开源项目
+`工具类`  `全栈`  `Spring Boot`  `React`  `设计模式`  `SQL`  `可作为毕设`
 
-鱼皮 GitHub：https://github.com/liyupi （国内：https://gitee.com/liyupi）
+基于 Spring Boot + React 的智能化数据建表和模拟数据生成工具，支持可视化建表、智能导入、导入 Excel 等多种方式，一键生成建表 SQL、模拟数据和代码。实战多种设计模式（工厂、建造者、门面、策略）、Schema 设计、Druid SQL 解析器、FreeMarker 模板引擎、模拟数据、Excel 导入导出等。
 
-SQL 闯关式自学网（纯前端项目）：https://github.com/liyupi/sql-mother
+![SQL 数据生成平台](https://pic.code-nav.cn/post_picture/1601072287388278786/VaaGNgOxMXgLtwsn.webp)
 
-极客范儿浏览器主页（重前端项目）：https://github.com/liyupi/yuindex
 
-SQL 数据生成器（React + Java）：https://github.com/liyupi/sql-father-frontend-public
 
-免费网络安全自学网（纯前端项目）：https://github.com/liyupi/ceshiya
+### 阶段 4 - 技术进阶
 
-结构化 SQL 语句生成器：https://github.com/liyupi/sql-generator
+这些项目涉及更多架构设计相关的知识，更侧重技术提升，建议能够熟练开发业务类项目再学习，可以在简历上补充技术轮子类项目。
 
-面试刷题网（React + Node）：https://github.com/liyupi/mianshiya-public
+1）[API 开放平台](https://www.codefather.cn/course/1790979723916521474)
 
-编程资源网（React + 云开发）：https://github.com/liyupi/code-nav
+`架构设计`  `全栈`  `Spring Boot`  `Dubbo`  `Gateway`  `SDK开发`  `分布式`  `可作为毕设`
 
-AI 自动回复工具（Java 项目）：https://github.com/liyupi/yu-auto-reply
+基于 React + Spring Boot + Dubbo 的分布式 API 开放平台，大厂主流业务场景。实战前后端模板开发、分布式架构设计、SDK 开发、API 签名认证、Dubbo RPC、Gateway 微服务网关，掌握企业级平台型产品的设计和开发。
 
-鱼了个鱼（纯前端项目）：https://github.com/liyupi/yulegeyu
+![API 开放平台](https://pic.code-nav.cn/post_picture/1601072287388278786/KMA01sMj40Mljxiz.webp)
 
-表情包网站（Vue + Java）：https://github.com/liyupi/father
+2）[手写 RPC 框架](https://www.codefather.cn/course/1768543954720022530)
 
-静态文档网站：https://github.com/liyupi/code-xingqiu
+`技术轮子`  `后端`  `Java`  `Etcd`  `Vert.x`  `设计模式`
 
-Ikun 测试器（Vue）：https://github.com/liyupi/ikun-test
+基于 Java + Etcd + Vert.x 从 0 到 1 手写高性能 RPC 框架，分为基础版和扩展版，基础版几小时就能写在简历上，搭配业务项目让简历更有竞争力。实战自定义网络协议、序列化、基于 Etcd 和 ZooKeeper 的注册中心、反射、动态代理、多种设计模式（单例/工厂/装饰者等）、SPI 机制、负载均衡、重试容错机制、Spring Boot Starter 注解驱动开发，大幅提升架构设计能力。
 
-名称生成器（Vue）：https://github.com/liyupi/good-name
+![手写 RPC 框架](https://pic.code-nav.cn/post_picture/1601072287388278786/RcpzVhQEtR6OUzRY.webp)
 
-## 更多项目推荐
+3）[亿级流量点赞系统（进阶必学）](https://www.codefather.cn/course/1912696290659577857)
 
-更多项目推荐可以在 [原创编程学习路线](https://www.code-nav.cn/course/1789189862986850306) 和 [编程导航原创学习知识库](https://www.code-nav.cn/course) 中查看。
+`高并发`  `后端`  `Spring Boot`  `TiDB`  `Redis`  `Pulsar`  `分布式`
 
-## 加入学习
+基于 Spring Boot 3 + Java 21 + MyBatis-Plus + TiDB + Redis + Pulsar + Docker + Nginx 的高并发分布式点赞系统。实战高并发、高性能、高可用、分布式架构、可观测性等核心技术，集成最新技术栈和架构设计方案，全面掌握企业级大流量系统的开发和优化经验。项目难度较大，强烈不建议项目经验小于 4 个的初级开发学习。
 
-点击 [成为编程导航会员](https://www.code-nav.cn/vip) ，鱼皮原创项目均可学习。
+![亿级流量点赞系统](https://pic.code-nav.cn/post_picture/1601072287388278786/gMDKqcBiHU0ZSYjt.webp)
+
+4）[AI 自动回复工具](https://www.codefather.cn/course/1966420016440999938)
+
+`AI应用开发`  `架构设计`  `后端`  `Spring Boot`  `OpenAI`  `Docker`  `定时任务`
+
+基于 Spring Boot 的智能监控和 AI 自动回复工具，自动监控知识星球等平台的用户提问，调用 OpenAI 大模型生成专业回答，实现 7x24 小时自动客服。实战工厂模式、中介者模式、策略模式、OpenAI 集成、知识星球 API 对接、定时任务调度、Docker 容器化、Railway 云端部署，培养企业级架构设计思维。
+
+![AI 自动回复工具](https://pic.code-nav.cn/post_picture/1601072287388278786/HMSk0DpvP4QIVOgS.webp)
+
+
+
+### 其他项目 - 前端实战
+
+这些项目以前端为核心，也融合了大量系统设计的方法，适合前端方向、或者后端已经熟练的全栈开发者学习。
+
+1）[极客范 Web 终端项目](https://www.codefather.cn/course/1966423442205900801)
+
+`前端进阶`  `全栈`  `Vue3`  `TypeScript`  `Node.js`  `插件化架构`  `可作为毕设`
+
+基于 Vue 3 + Node.js 的全栈项目，从 0 实现 Web 终端组件和命令系统，打造极客范的浏览器主页应用。掌握 TypeScript、Vite、Pinia 状态管理、插件化架构设计，学习现代前端工程化和系统架构设计。难度较大，适合想进阶前端和设计模式的朋友学习。
+
+![极客范 Web 终端项目](https://pic.code-nav.cn/post_picture/1601072287388278786/HrfKtjy5b1MC3UBz.webp)
+
+2）[闯关式 SQL 自学网](https://www.codefather.cn/course/1966412848320004097)
+
+`前端进阶`  `Vue3`  `WebAssembly`  `Monaco Editor`  `纯前端`  `可作为毕设`
+
+基于 Vue 3 的纯前端项目，通过闯关式交互帮助用户自学 SQL。实战 sql.js 库（WebAssembly）、Monaco Editor 代码编辑器、判题机制 + 关卡系统 + 模块化架构设计，学习如何用纯前端方案解决复杂业务问题，适合前端进阶和产品思维培养。
+
+![闯关式 SQL 自学网](https://pic.code-nav.cn/post_picture/1601072287388278786/7JkS1oDgF5mJqd5f.webp)
+
+3）[复杂 SQL 生成器](https://github.com/liyupi/sql-generator)
+
+`练手项目`  `前端`  `Vue3`  `TypeScript`  `Monaco Editor`
+
+基于 Vue 3 + TypeScript + Ant Design + Monaco Editor 的 SQL 生成工具，用 JSON 生成结构化的复杂嵌套 SQL 语句。项目开发成本低、重逻辑轻页面，非常适合前端练手，学会用编程和算法思维解决实际问题。
+
+![复杂 SQL 生成器](https://pic.code-nav.cn/post_picture/1601072287388278786/Wo9cdKivFiOnmj2x.webp)
+
+4）[测试鸭](https://github.com/liyupi/ceshiya)
+
+`创意项目`  `前端`  `React`  `状态管理`
+
+基于 React 的交互式网络安全自学网，极具创意的闯关式学习体验。实践前端网站引导、状态管理、模块化设计，适合想做创意类前端项目的同学。
+
+![测试鸭](https://pic.code-nav.cn/post_picture/1601072287388278786/J3Y7x7X8u5hUQ6MH.webp)
+
+
+
+### 其他项目 - 项目训练营 & 业务场景实战
+
+1）[项目训练营（寻爱网项目）](https://www.codefather.cn/course/1806250609774997505/section/1806260285074825217?type=)
+
+`练手项目`  `全栈`  `项目流程`
+
+以恋爱社交网站项目为例，学习从立项到上线的完整做项目流程 + 优化思路，适合想快速掌握项目开发全流程的同学。
+
+![寻爱网项目](https://pic.code-nav.cn/post_picture/1601072287388278786/sdOmaMJkKDAGx9ib.webp)
+
+2）真实业务场景实战教程
+
+`业务实战`  `后端`  `快速上手`
+
+主打小而精的企业真实业务实战教程，快速给简历增加亮点，包括：
+
+- [简历中英文翻译实战教程](https://www.codefather.cn/course/1789200352035184641/section/1789200491340603393?type=)
+- [单设备登录限制实战教程](https://www.codefather.cn/course/1789200352035184641/section/1789200584584175618?type=)
+- [短信群发实战教程](https://www.codefather.cn/course/1789200352035184641/section/1789200454422339586?type=)
+
+3）[企业周边展示管理系统](https://www.codefather.cn/course/1789199673623289857)
+
+`练手项目`  `全栈`  `Spring Boot`  `React`
+
+基于 Spring Boot + React + Ant Design + MySQL + Redis 的企业级周边系统，直观清晰地展示公司周边奖品、并且提高公司内部的周边申请和管理效率。
+
+![企业周边展示管理系统](https://pic.code-nav.cn/post_picture/1601072287388278786/uYkN8zIRRK0sNAqf.webp)
+
+4）[动态公告系统](https://www.codefather.cn/course/1789199181551738882)
+
+`练手项目`  `全栈`  `Spring Boot`  `React`  `SDK开发`
+
+基于 Spring Boot + MySQL + React + Ant Design + SweetAlert 的动态公告系统，包括后台公告管理和前端 SDK 开发，只需一行代码即可给项目增加灵活的公告弹窗展示能力。
+
+![动态公告系统](https://pic.code-nav.cn/post_picture/1601072287388278786/cbzPOAa1pTUece3p.webp)
+
+
+
+### 万用项目模板
+
+1）[Java 后端万用项目模板](https://www.codefather.cn/course/1789200994552225793/section/1789201346202673154)
+
+基于 Java SpringBoot 的项目初始模板，整合了常用框架和主流业务的示例代码。只需 **1 分钟** 即可完成内容网站的后端！还可以在此基础上快速开发自己的项目。
+
+2）[前端万用项目模板](https://www.codefather.cn/course/1789200994552225793/section/1789201831080992770)
+
+基于 React + Ant Design 的项目初始模板，整合了常用框架和主流业务的示例代码。只需 **1 分钟** 即可完成网站的基础前端！还可以在此基础上快速开发自己的项目。
+
+
+
+## 学好项目的建议
+
+鱼皮原创系列项目是希望帮助大家真实提高项目开发水平，而不仅仅是抄了代码就完事，所以请大家尽可能多地按照下面的建议来学习项目。
+
+#### 1、选择合适的项目
+
+一般情况下，做项目的前提是学完至少一门开发框架，比如前端的 Vue / React、后端的 Spring Boot。
+
+**一定要根据自己当前的技术栈和水平选择项目。** 比如刚学完框架时，不要为了赶时间一上来就做微服务、高并发项目，很容易吃不消，而是要先从掌握项目基本的开发流程开始，一步步学习项目开发方法、逐渐接受新的技术。
+
+刚开始学项目感觉难、做得慢，是很正常的，因为你缺少知识和经验。如果发现项目中有太多你没学过的技术、并且没有对应的教程讲解，那么就先暂停项目，即时补充知识，再来学习。
+
+#### 2、分清主次
+
+**时间紧急的情况下，后端方向的同学可以只看后端部分的教程、只做后端、运行接口文档即可**，建议直接跳过前端部分的教程、也不要花时间去运行前端。否则可能因为不熟悉前端、折腾环境而浪费了大量时间。
+
+前端同学也是同理。
+
+#### 3、多敲代码
+
+我接触过一些同学，看完了几套视频教程后，还是无法自己敲项目，大概率就是因为做项目的过程中 “只顾着看教程” 了，没有自己动手练习。很多时候，看别人敲代码感觉并不难，但一看就会、一写就废，看完教程后，必须自己把每行代码都敲出来，才算是真正地学过这个项目，而不是将 “掌握理论”、“熟练背诵八股文” 作为学好项目的标准。
+
+#### 4、自主思考
+
+在跟着视频教程做项目的过程中，尽量多思考，比如 “为什么要这么设计？这么设计有什么好处？为什么代码要这么写？有没有更好的写法？” 等等，**必要时通过查阅资料来验证自己的思考**。如果一味跟着讲师的节奏走，你或许可以完成项目，但是做完这个项目后，你可能很难自主做出一个类似的、或者更好的项目。有的时候，讲师说的不一定是最优解。
+
+像我带大家做项目时，会经常引导大家思考。有时候故意留一个小坑，结果很多同学想都不想就跳到坑里了；也有些同学，能够提出和我不一样的实现方案，哪怕方案未必合理，能自己思考，就很棒了。
+
+#### 5、持续记录
+
+在做项目的过程中，一定要多做笔记，不要觉得教程配套的笔记很详细了，自己就偷懒不写。笔记的作用是帮助自己复习，所以重点是记录自己做项目时的理解思考、遇到的问题和解决方案。此外，自己写过的每一行项目代码，都要完整地保存，等你学过更多技术知识后，再回过头来看自己的代码，一定会感叹自己的进步。
+
+#### 6、自主解决问题
+
+**这点是最重要的！** 很多同学一遇到问题就紧张、害怕、担心自己解决不了无法继续做项目，然后就疯狂求助他人。
+
+负责任的说，我写代码近 8 年，从学生时代开始，可以说 99% 的 Bug 都是自己解决的，所以大家不要有这种担心，因为你学的技术几乎都是主流的，你遇到过的 Bug，别人也一定遇到过。在遇到项目报错时，要先搜集足够多的错误信息（比如通过日志），然后查阅搜索引擎（百度应该都知道吧）、技术社区、官方文档、甚至现在还可以 [问 AI](https://ai.codefather.cn/vibe)，大概率是有解决方案的。即使真的没办法解决，在向他人求助前，要保证自己的问题描述地足够清楚、并且清晰列举已经尝试过的解决方案，别人才能更快地帮你解决。
+
+推荐阅读：[利用编程导航解决问题](https://yuyuanweb.feishu.cn/wiki/FY7DwfanEikgzuk3yJlcXRWLnZc)
+
+#### 7、多读官方文档
+
+如今新技术层出不穷，不可能每个新技术都有好心人给你录制保姆级教程。而且工作后，很多公司可能会有自研技术，只有内部同事用过，我们只能通过阅读文档来解决。所以建议大家在学完一门新技术后，花 1 ~ 2 个小时就好，阅读一下官方文档，不仅能了解一些教程讲解之外的技术特性，还能提升自己阅读文档、学习新技术的能力。
+
+#### 8、多写文档
+
+除了记笔记外，每做完一个项目，都必须写一篇完整的项目总结文档。不要嫌麻烦，写总结文档的过程中，你会从上帝视角再回顾一遍整个项目的背景、设计、实现、亮点等，帮助你复习巩固、加深印象。也便于你更快地将项目写在简历上、或者开源和分享自己的项目。有能力的同学可以多画一些图，比如功能模块图、架构图、UML 类图等，正所谓一图胜千言，绘图能力也是优秀程序员必备的特质。
+
+如果你发现自己写不出总结文档，那么大概率你对这个项目还是不够熟悉，没有完全掌握，这时再对照着自己的笔记快速回顾吧。
+
+如果时间比较充足，最好是能够口述整个项目的背景、技术栈、核心业务流程、核心设计、项目难点、开发过程、测试过程、上线过程、解决过最复杂的问题等等，锻炼自己的表达能力，也为后续的面试做了准备。
+
+#### 9、自主优化
+
+跟着教程完成项目后，需要给项目增加几个扩展点、或者回顾自己的代码并寻找优化空间（比如优化代码规范），从而增加简历的区分度。这也是区别是否能够入职大厂的一个重要因素。这个优化不一定是刚完成项目时立刻就去做的，可以等过了半年后，再以现在的水平去优化之前做过的项目，所以鱼皮上面也建议了，自己写的代码一定要留好。
+
+#### 10、上线项目
+
+在本地完成项目后，最好将项目上线，并且在线上正常运行一段时间，跑通整个流程，这是独立开发者必备的技能。此外，之前也分享过，[上线项目能够大幅增加简历的真实性](https://mp.weixin.qq.com/s/Aygoe6Gpl5bOeeO0G5Ia9Q)。
+
+#### 11、主动分享
+
+将项目上线、并且编写好项目总结文档后，可以将项目和文档分享给其他同学。这样做的好处是，其他同学会帮助你 “测试” 网站，指出项目的不足之处，从而给你带来更多优化项目的思路和机会，而且对其他同学也有帮助，会给你提供更多的正反馈。鱼皮刚开始做分享也是这样，通过输出知识给自己带来更多学习知识的动力。
+
+#### 12、学会合作
+
+时间有限的情况下，不需要前端和后端都看教程并且自己实现，可以找和自己方向互补的朋友，协作开发，一起参加一些竞赛也是极好的。
+
+如果能做到上面几点，认真完成并理解 4 个及以上的项目，做项目的能力可达中厂水平。
+
+
+
+## 鱼皮项目学习导图
+
+快速了解鱼皮原创系列项目的学习路径和重点知识。
+
+![鱼皮原创项目学习导图](https://pic.code-nav.cn/post_picture/1601072287388278786/HqW0fch3PDdAhFYc.webp)
+
+
+
+## 推荐阅读
+
+如何更快学好编程：[编程导航学习板块](https://www.codefather.cn/learn?category=77)
+
+如何快速学会算法：[算法导航 - 动画学算法网站](https://algo.codefather.cn/)
+
+如何更快地找工作：[编程导航求职指南](https://www.codefather.cn/course/1899655354088226817)
+
+如何写出优质简历：[保姆级写简历指南](https://www.codefather.cn/course/1802644557818343425)
+
+快速突击面试重点：[程序员面试刷题神器 - 面试鸭](https://www.mianshiya.com/)
+
+1v1 模拟面试：[模拟面试平台 - 面多多](https://ai.mianshiya.com/)
+
+如何学习 AI 知识：[鱼皮的 AI 导航网站](https://ai.codefather.cn/)
+
+编程学习常见问题：[5000+ 常见问题参考](https://www.codefather.cn/qa)
+
+查看真实简历建议：[编程导航简历参考](https://www.codefather.cn/job/resume)

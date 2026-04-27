@@ -11,6 +11,11 @@
             <a :href="government.href" target="_blank" rel="noreferrer" >
               {{government.name}}
             </a>
+            <span class="separator">&nbsp; | &nbsp;</span>
+            <a :href="publicSecurity.href" target="_blank" rel="noreferrer" class="public-security">
+              <img src="/public_security.webp" alt="公网安备" class="security-icon" />
+              {{publicSecurity.name}}
+            </a>
         </div>
     </main>
 </template>
@@ -22,6 +27,7 @@ export default {
         return {
             footerList: [],
             government: {},
+            publicSecurity: {},
             currentYear : ''
         }
     },
@@ -30,6 +36,7 @@ export default {
   mounted() {
     this.footerList = this.$site.themeConfig.footer.friendLinks
     this.government = this.$site.themeConfig.footer.copyright
+    this.publicSecurity = this.$site.themeConfig.footer.publicSecurity
     this.currentYear =  new Date().getFullYear()
   }
 }
@@ -66,4 +73,11 @@ export default {
     color #85858a
 .copy-right .name
     margin-right 0.4rem
+.public-security
+    display inline-flex
+    align-items center
+.security-icon
+    width 1rem
+    height 1rem
+    margin-right 0.25rem
 </style>

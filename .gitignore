@@ -99,6 +99,7 @@ dist
 
 # vuepress build output
 .vuepress/dist
+.vuepress/config.bundled_*.mjs
 
 # Serverless directories
 .serverless/
