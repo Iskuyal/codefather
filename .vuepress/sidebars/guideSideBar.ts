@@ -27,7 +27,6 @@ export default [
             sidebarDepth: 1,
             children: [
               "住宿推荐/night-4-汕头市区/汕头龙光喜来登酒店.md",
-              "住宿推荐/night-4-汕头市区/汕头国际大酒店.md",
               "住宿推荐/night-4-汕头市区/汕头万象城亚朵酒店.md",
             ],
           },
