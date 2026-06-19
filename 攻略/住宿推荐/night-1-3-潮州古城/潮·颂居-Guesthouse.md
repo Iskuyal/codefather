@@ -1,5 +1,4 @@
 ---
-permalink: /攻略/住宿推荐/night-1-3-潮州古城/潮·颂居-Guesthouse/
 ---
 
 # 🥈 潮·颂居 Guesthouse

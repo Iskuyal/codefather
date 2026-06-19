@@ -5,7 +5,7 @@ import footer from "./footer";
 import extraSideBar from "./extraSideBar";
 
 const author = "潮州深度游攻略组";
-const domain = "https://codefather.cn";
+const domain = "https://chaoshan-guide.com";
 const tags = ["潮州", "旅游攻略", "自驾游", "潮汕", "南澳岛", "汕头"];
 
 export default defineConfig({
@@ -38,8 +38,6 @@ export default defineConfig({
       `,
     ],
   ],
-  permalink: "/:slug",
-
   // 监听文件变化，热更新
   extraWatchFiles: [".vuepress/*.ts", ".vuepress/sidebars/*.ts"],
   markdown: {
@@ -120,8 +118,8 @@ export default defineConfig({
     sidebar,
     lastUpdated: "最近更新",
 
-    // GitHub 仓库位置
-    repo: "liyupi/codefather",
+    // GitHub 仓库位置（已禁用）
+    repo: "",
     docsBranch: "master",
 
     // 编辑链接（已禁用）
