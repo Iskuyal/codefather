@@ -12,7 +12,7 @@ export default [
         sidebarDepth: 1,
         children: [
           {
-            title: "Night 1–3：潮州古城（3晚）",
+            title: "Night 1–4：潮州古城（4晚）",
             collapsable: true,
             sidebarDepth: 1,
             children: [
@@ -22,16 +22,17 @@ export default [
             ],
           },
           {
-            title: "Night 4：汕头市区（1晚）",
+            title: "Night 5：汕头市区（1晚）",
             collapsable: true,
             sidebarDepth: 1,
             children: [
+              "住宿推荐/night-4-汕头市区/维也纳酒店.md",
               "住宿推荐/night-4-汕头市区/汕头龙光喜来登酒店.md",
               "住宿推荐/night-4-汕头市区/汕头万象城亚朵酒店.md",
             ],
           },
           {
-            title: "Night 5–6：南澳岛（2晚）",
+            title: "Night 6–7：南澳岛（2晚）",
             collapsable: true,
             sidebarDepth: 1,
             children: [
@@ -41,7 +42,7 @@ export default [
             ],
           },
           {
-            title: "Night 7：潮州收官（1晚）",
+            title: "💡 可选替代",
             collapsable: true,
             sidebarDepth: 1,
             children: [
