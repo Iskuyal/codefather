@@ -5,7 +5,7 @@
 
 > **类型**：宋式美学民宿 | **等级**：潮州精品 | **参考价**：¥550 – 1,000/晚（7月旺季）
 
-![潮·颂居外观](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/1.jpg)
+![潮·颂居外观](/图片/night-1-潮州古城/潮·颂居-Guesthouse/1.jpg)
 *潮·颂居 · 宋式美学庭院*
 
 ## 📋 基本信息
@@ -36,38 +36,38 @@
 
 ### 🛏️ 客房 & 空间
 
-![潮·颂居实拍1](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/1.jpg)
+![潮·颂居实拍1](/图片/night-1-潮州古城/潮·颂居-Guesthouse/1.jpg)
 *宋式美学客房 — 简约东方美学*
 
-![潮·颂居实拍2](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/2.jpg)
+![潮·颂居实拍2](/图片/night-1-潮州古城/潮·颂居-Guesthouse/2.jpg)
 
-![潮·颂居实拍3](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/3.jpg)
+![潮·颂居实拍3](/图片/night-1-潮州古城/潮·颂居-Guesthouse/3.jpg)
 
-![潮·颂居实拍4](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/4.jpg)
+![潮·颂居实拍4](/图片/night-1-潮州古城/潮·颂居-Guesthouse/4.jpg)
 
-![潮·颂居实拍5](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/5.jpg)
+![潮·颂居实拍5](/图片/night-1-潮州古城/潮·颂居-Guesthouse/5.jpg)
 
-![潮·颂居实拍6](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/6.jpg)
+![潮·颂居实拍6](/图片/night-1-潮州古城/潮·颂居-Guesthouse/6.jpg)
 
-![潮·颂居实拍7](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/7.jpg)
+![潮·颂居实拍7](/图片/night-1-潮州古城/潮·颂居-Guesthouse/7.jpg)
 
-![潮·颂居实拍8](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/8.jpg)
+![潮·颂居实拍8](/图片/night-1-潮州古城/潮·颂居-Guesthouse/8.jpg)
 
-![潮·颂居实拍9](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/9.jpg)
+![潮·颂居实拍9](/图片/night-1-潮州古城/潮·颂居-Guesthouse/9.jpg)
 
-![潮·颂居实拍10](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/10.jpg)
+![潮·颂居实拍10](/图片/night-1-潮州古城/潮·颂居-Guesthouse/10.jpg)
 
-![潮·颂居实拍11](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/11.jpg)
+![潮·颂居实拍11](/图片/night-1-潮州古城/潮·颂居-Guesthouse/11.jpg)
 
-![潮·颂居实拍12](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/12.jpg)
+![潮·颂居实拍12](/图片/night-1-潮州古城/潮·颂居-Guesthouse/12.jpg)
 
-![潮·颂居实拍13](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/13.jpg)
+![潮·颂居实拍13](/图片/night-1-潮州古城/潮·颂居-Guesthouse/13.jpg)
 
-![潮·颂居实拍14](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/14.jpg)
+![潮·颂居实拍14](/图片/night-1-潮州古城/潮·颂居-Guesthouse/14.jpg)
 
-![潮·颂居实拍15](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/15.jpg)
+![潮·颂居实拍15](/图片/night-1-潮州古城/潮·颂居-Guesthouse/15.jpg)
 
-![潮·颂居实拍16](/图片/night-1-3-潮州古城/潮·颂居-Guesthouse/16.jpg)
+![潮·颂居实拍16](/图片/night-1-潮州古城/潮·颂居-Guesthouse/16.jpg)
 
 ## 🔗 预订 & 实拍链接
 

@@ -5,7 +5,7 @@
 
 > **类型**：设计师民宿 | **等级**：南澳岛精品 | **参考价**：¥600 – 1,000/晚（7月旺季）
 
-![MUMU泊木·拾陸間](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/1.jpg)
+![MUMU泊木·拾陸間](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/1.jpg)
 *MUMU泊木 · 侘寂风设计师民宿*
 
 ## 📋 基本信息
@@ -31,45 +31,45 @@
 
 ## 🖼️ 实拍图集
 
-![MUMU实拍1](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/1.jpg)
+![MUMU实拍1](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/1.jpg)
 
-![MUMU实拍2](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/2.jpg)
+![MUMU实拍2](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/2.jpg)
 
-![MUMU实拍3](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/3.jpg)
+![MUMU实拍3](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/3.jpg)
 
-![MUMU实拍4](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/4.jpg)
+![MUMU实拍4](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/4.jpg)
 
-![MUMU实拍5](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/5.jpg)
+![MUMU实拍5](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/5.jpg)
 
-![MUMU实拍6](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/6.jpg)
+![MUMU实拍6](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/6.jpg)
 
-![MUMU实拍7](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/7.jpg)
+![MUMU实拍7](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/7.jpg)
 
-![MUMU实拍8](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/8.jpg)
+![MUMU实拍8](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/8.jpg)
 
-![MUMU实拍9](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/9.jpg)
+![MUMU实拍9](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/9.jpg)
 
-![MUMU实拍10](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/10.jpg)
+![MUMU实拍10](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/10.jpg)
 
-![MUMU实拍11](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/11.jpg)
+![MUMU实拍11](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/11.jpg)
 
-![MUMU实拍12](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/12.jpg)
+![MUMU实拍12](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/12.jpg)
 
-![MUMU实拍13](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/13.jpg)
+![MUMU实拍13](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/13.jpg)
 
-![MUMU实拍14](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/14.jpg)
+![MUMU实拍14](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/14.jpg)
 
-![MUMU实拍15](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/15.jpg)
+![MUMU实拍15](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/15.jpg)
 
-![MUMU实拍16](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/16.jpg)
+![MUMU实拍16](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/16.jpg)
 
-![MUMU实拍17](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/17.jpg)
+![MUMU实拍17](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/17.jpg)
 
-![MUMU实拍18](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/18.jpg)
+![MUMU实拍18](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/18.jpg)
 
-![MUMU实拍19](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/19.jpg)
+![MUMU实拍19](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/19.jpg)
 
-![MUMU实拍20](/图片/night-5-6-南澳岛/MUMU泊木·拾陸間/20.jpg)
+![MUMU实拍20](/图片/night-4-5-南澳岛/MUMU泊木·拾陸間/20.jpg)
 
 ## 🔗 预订 & 实拍链接
 
