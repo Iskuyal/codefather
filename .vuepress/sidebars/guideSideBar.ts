@@ -13,14 +13,6 @@ export default [
     ],
   },
   {
-    title: "🏨 住宿推荐",
-    collapsable: true,
-    sidebarDepth: 2,
-    children: [
-      "住宿推荐.md",
-    ],
-  },
-  {
     title: "🏠 住宿详情",
     collapsable: true,
     sidebarDepth: 1,
@@ -31,6 +23,9 @@ export default [
         sidebarDepth: 1,
         children: [
           "住宿推荐/night-1-潮州古城/潮州古城住宿指南.md",
+          "住宿推荐/night-1-潮州古城/咏而归.md",
+          "住宿推荐/night-1-潮州古城/如南里美墅.md",
+          "住宿推荐/night-1-潮州古城/裕德居民宿.md",
         ],
       },
       {
@@ -47,6 +42,11 @@ export default [
         sidebarDepth: 1,
         children: [
           "住宿推荐/night-4-5-南澳岛/南澳岛住宿指南.md",
+          "住宿推荐/night-4-5-南澳岛/三合小院民宿.md",
+          "住宿推荐/night-4-5-南澳岛/一方院子.md",
+          "住宿推荐/night-4-5-南澳岛/居山欣海民宿.md",
+          "住宿推荐/night-4-5-南澳岛/浠汐里海景民宿.md",
+          "住宿推荐/night-4-5-南澳岛/安澜琉光海宿.md",
         ],
       },
     ],
