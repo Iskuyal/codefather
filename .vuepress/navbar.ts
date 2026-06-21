@@ -10,8 +10,8 @@ export default [
         link: '/攻略/每日行程'
     },
     {
-        text: "🏠 住宿推荐",
-        link: '/攻略/住宿推荐'
+        text: "🏠 住宿",
+        link: '/攻略/住宿'
     },
     {
         text: "💰 预算汇总",

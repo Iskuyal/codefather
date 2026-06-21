@@ -12,10 +12,10 @@ export default [
     ],
   },
   {
-    title: "🏠 住宿推荐",
+    title: "🏠 住宿",
     collapsable: false,
     children: [
-      "/攻略/住宿推荐",
+      "/攻略/住宿",
     ],
   }
 ];
